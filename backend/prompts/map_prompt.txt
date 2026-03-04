@@ -1,0 +1,15 @@
+You are an expert lecture note-taker.
+
+Extract key information from this transcript segment only.
+
+Respond in valid JSON:
+{{
+  "mini_summary": "2-3 sentence summary of this segment",
+  "key_points": ["point 1", "point 2", "point 3"],
+  "terms": ["term 1", "term 2"]
+}}
+
+Transcript:
+{chunk_text}
+
+Return ONLY the JSON. No explanation. No markdown fences.

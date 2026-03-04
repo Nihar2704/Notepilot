@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+httpx
+youtube-transcript-api
+yt-dlp
+langchain
+langchain-community
+groq
+aiosqlite
+langdetect
